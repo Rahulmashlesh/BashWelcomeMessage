@@ -28,9 +28,9 @@ alias kgns='kgn'
 ###Make prompt interesting with responses
 function success_indicator() {
     if [ $? -eq 0 ] ; then
-        echo "\U0001f60e"
+        echo "😎"
     else
-        echo "\U0001f4a9"
+        echo "💩"
     fi
 }
 #Disable the below line and source to cancel this awesom feature
