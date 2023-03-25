@@ -25,8 +25,8 @@ alias kgn="k get namespace"
 alias kgns='kgn'
 
 # adding lang settings to stop python from using ASCII
-export LC_ALL=en_US.utf8
-export LANG=en_US.utf8
+#export LC_ALL=en_US.utf8
+#export LANG=en_US.utf8
 
 # IntelIj added to path
 #export PATH="$PATH:/home/rmashles/softwares/idea-IU-212.4746.92/bin"
@@ -48,7 +48,7 @@ alias gb="git branch"
 alias gc="git checkout"
 
 #M#aking the prompt fancy :P
-export PS1="\[\033[01;32m\]\u@\h:\[\033[01;34m\] \W \$\[\033[00m\]"
+#export PS1="\[\033[01;32m\]\u@\h:\[\033[01;34m\] \W \$\[\033[00m\]"
 
 ###Make prompt interesting with responses
 function success_indicator() {
@@ -59,6 +59,6 @@ function success_indicator() {
     fi
 }
 #Disable the below line and source to cancel this awesom feature
-export PS1='$(success_indicator)'$PS1
+#:wq!export PS1='$(success_indicator)'$PS1
 
 echo "Welcome to the lab: " $HOSTNAME
