@@ -76,7 +76,7 @@ alias gpl="git pull"
 alias gb="git branch"
 alias gc="git checkout"
 alias grv="git remote -v"
-export GITLAB_TOKEN=QQuvMAdrXZhk6apv1UD8
+export GITLAB_TOKEN=<insert>
 
 
 # antigen
